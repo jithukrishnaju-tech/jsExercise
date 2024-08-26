@@ -1,5 +1,8 @@
 //-------------------------------------------------------------------------
 //EXERCISE 1
+//Exercise 1: Create a Simple Function
+// Task: Write a function named calculateSum that takes two numbers as arguments and returns their sum.
+// Bonus: Create another function named displaySum that uses calculateSum and displays the result using alert.
 //-------------------------------------------------------------------------
 // function calculateSum(a, b) {
 //   return a + b;
@@ -13,6 +16,9 @@
 
 //-------------------------------------------------------------------------
 //EXERCISE 2
+//Exercise 2: Function Expression
+// Task: Convert the calculateSum function from the previous exercise into a function expression.
+// Bonus: Use this function expression to calculate the sum of two numbers entered by the user via prompt.
 //-------------------------------------------------------------------------
 
 // let calculateSum = function (a, b) {
@@ -24,6 +30,9 @@
 
 //-------------------------------------------------------------------------
 //EXERCISE 3
+//Exercise 3: Arrow Functions
+// Task: Write an arrow function named multiplyNumbers that takes two numbers as arguments and returns their product.
+// Bonus: Use the arrow function inside another function named calculateProduct that prompts the user for two numbers and then displays the product using alert.
 //-------------------------------------------------------------------------
 
 let multiplyNumbers = (a, b) => a * b;
