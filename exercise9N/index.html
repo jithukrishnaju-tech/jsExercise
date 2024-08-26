@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Toggle Text Visibility</title>
+    <style>
+      #textContainer {
+        opacity: 1;
+        height: auto;
+        overflow: hidden;
+        transition: opacity 0.5s ease, height 0.5s ease; /* Transition properties */
+      }
+
+      #textContainer.hidden {
+        opacity: 0;
+        height: 0;
+      }
+      button {
+        margin: 10px;
+        padding: 10px 20px;
+        font-size: 16px;
+      }
+    </style>
+  </head>
+  <body>
+    <button id="toggleButton">Hide Text</button>
+    <div id="textContainer">
+      <p>This is the paragraph of text that will be toggled.</p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
